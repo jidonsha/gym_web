@@ -1,0 +1,120 @@
+body {
+    background-color: rgb(118, 208, 212);
+    font-family: sans-serif, DFKai-SB, Microsoft JhengHei;
+}
+
+.title {
+    background-color: #44516f;
+    color: white;
+    font-size: 32px;
+    height: 4rem;
+    border-radius: 0.8rem;
+    margin: 5px;
+    padding: 1rem;
+    text-align: center;
+    line-height: 4rem;
+}
+
+.sub-title {
+    /* display: inline-block; */
+    background-color: #44516f;
+    color: #fff;
+    border-radius: 0.3rem;
+    margin: 5px;
+    line-height: 4rem;
+    padding-left: 1rem;
+    text-align: left;
+}
+
+.banner {
+    background-color: #44516f;
+    color: #fff;
+    font-size: 64px;
+    border-radius: 0.3rem;
+    margin: 5px;
+    padding-left: 1rem;
+}
+
+#container {
+    width: 90%;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.text-1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 0 1rem;
+}
+
+.text-2 {
+    background-color: tomato;
+    color: yellow;
+    padding: 10px;
+    border: 2px salmon solid;
+}
+
+.text-3 {
+    border: 2px;
+    text-align: left;
+}
+
+#good-link a {
+    text-decoration: none;
+    color: rgb(156, 9, 33)
+}
+
+.slogan {
+    font-size: 32px;
+    margin-left: 10px;
+    color: brown;
+}
+
+#picture {
+    border-radius: 0.2rem;
+    margin: 0 6px;
+}
+
+table {
+    width: 90%;
+    margin: 10px auto;
+    height: 200px;
+}
+
+th {
+    font-weight: 100;
+    background-color: rgb(12, 31, 94);
+    color: white;
+}
+
+td:first-child {
+    background-color: rgb(92, 4, 173);
+    color: white;
+}
+
+td {
+    background-color: rgb(250, 136, 70);
+}
+
+input,
+button,
+textarea {
+    font-size: 20px;
+    padding: 10px;
+}
+
+form {
+    background-color: rgb(147, 145, 241);
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+button {
+    width: 15rem;
+    background-color: tomato;
+    color: white;
+    border-radius: 0.5rem;
+    border: 0;
+    font-weight: bold;
+    font-size: 30px;
+}
