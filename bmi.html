@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BMI計算機</title>
     <link rel="stylesheet" href="./css/style.css">
-
+    <script src="js/bmi.js"></script>
     <!-- <style>
         body {
             width: 90%;
@@ -26,19 +26,21 @@
 <body>
     <div id="container">
         <h1>BMI計算機</h1>
-        <form action="">
-            <label for="name">姓名：</label>
-            <input type="text" name="name" id="name" step="0.5" required placeholder="Name">
-            <br>
-            <label for="height">身高：</label>
-            <input type="number" name="height" id="height" step="0.5" required placeholder="Height">
-            <br>
-            <label for="weight">體重：</label>
-            <input type="number" name="weight" id="weight" step="0.5" required placeholder="Weight">
-            <br><br>
-            <button type="submit">計算</button>
-        </form>
+        <!-- <form action=""> -->
+        <label for="name">姓名：</label>
+        <input type="text" name="name" id="name" step="0.5" required placeholder="Name">
         <br>
+        <label for="height">身高：</label>
+        <input type="number" name="height" id="height" step="0.5" required placeholder="Height">
+        <br>
+        <label for="weight">體重：</label>
+        <input type="number" name="weight" id="weight" step="0.5" required placeholder="Weight">
+        <br><br>
+        <!-- <button type="submit">計算</button> -->
+        <button id="bmi-btn" type="button" onclick="click">計算</button>
+        <!-- </form> -->
+        <br>
+        <p id="result"></p>
         <a href="./index.html">回首頁</a>
     </div>
 </body>
